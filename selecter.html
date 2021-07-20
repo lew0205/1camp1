@@ -5,19 +5,22 @@
     <style>
         h3{color: brown;}
         li{color: brown;}
+        .warning{color: red;}
+        body.main{background: aliceblue;}
+        #list {background: mistyrose;}
     </style>
 </head>
-<body>
+<body class="main">
     <h3>Web Programming</h3>
     <hr>
     <div>
         <div>2학기 <strong>학습 내용</strong></div>
-        <ul>
+        <ul id="list">
             <li>HTML5</li>
             <li><strong>CSS</strong></li>
             <li>JAVASCRIPT</li>
         </ul>
-        <div>60점 이하는 F!</div>
+        <div class="warning">60점 이하는 F!</div>
     </div>
 </body>
 </html>
