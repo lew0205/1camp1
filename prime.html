@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>1000미만 소수 출력</title>
+</head>
+<body>
+    <script>
+        var cnt=0;
+        var i;
+        var prime =false
+        for(i=2;i<=1000;i++)
+        {
+            prime=true;
+            for(var j=2;j<i;j++)
+            {
+                if(i%j==0)
+                {
+                    prime=false
+                }
+            }
+            if(prime==false)
+            {
+
+            }
+            else if(prime==true)
+            {
+                document.write(""+i+"<br>")
+                cnt++;
+            }
+        }
+        document.write("소수 개수 : "+cnt+"<br>")
+
+    </script>
+</body>
+</html>
