@@ -1,0 +1,9 @@
+em 배수
+% 퍼센트
+px 픽셀 수
+cm 센티미터
+mm 밀리미터
+in 인치. 1in=2.54cm=96px
+pt 포인터. 1pt=1in의 1/72 크기
+pc 피카소(picas). 1pc=12pt
+deg 각도
